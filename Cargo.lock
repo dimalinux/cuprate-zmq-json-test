@@ -270,7 +270,7 @@ dependencies = [
 [[package]]
 name = "cuprate-epee-encoding"
 version = "0.5.0"
-source = "git+https://github.com/dimalinux/cuprate?rev=d4a699845ebb9d125a47bdc70fc22761e6cb17fa#d4a699845ebb9d125a47bdc70fc22761e6cb17fa"
+source = "git+https://github.com/dimalinux/cuprate?branch=dimalinux/zmq-types#d301deb37844296587ce5f8839b95cfa23a61d0d"
 dependencies = [
  "bytes",
  "cuprate-fixed-bytes",
@@ -283,7 +283,7 @@ dependencies = [
 [[package]]
 name = "cuprate-fixed-bytes"
 version = "0.1.0"
-source = "git+https://github.com/dimalinux/cuprate?rev=d4a699845ebb9d125a47bdc70fc22761e6cb17fa#d4a699845ebb9d125a47bdc70fc22761e6cb17fa"
+source = "git+https://github.com/dimalinux/cuprate?branch=dimalinux/zmq-types#d301deb37844296587ce5f8839b95cfa23a61d0d"
 dependencies = [
  "bytes",
  "serde",
@@ -293,12 +293,12 @@ dependencies = [
 [[package]]
 name = "cuprate-helper"
 version = "0.1.0"
-source = "git+https://github.com/dimalinux/cuprate?rev=d4a699845ebb9d125a47bdc70fc22761e6cb17fa#d4a699845ebb9d125a47bdc70fc22761e6cb17fa"
+source = "git+https://github.com/dimalinux/cuprate?branch=dimalinux/zmq-types#d301deb37844296587ce5f8839b95cfa23a61d0d"
 
 [[package]]
 name = "cuprate-types"
 version = "0.0.0"
-source = "git+https://github.com/dimalinux/cuprate?rev=d4a699845ebb9d125a47bdc70fc22761e6cb17fa#d4a699845ebb9d125a47bdc70fc22761e6cb17fa"
+source = "git+https://github.com/dimalinux/cuprate?branch=dimalinux/zmq-types#d301deb37844296587ce5f8839b95cfa23a61d0d"
 dependencies = [
  "bytes",
  "cuprate-epee-encoding",
@@ -326,12 +326,11 @@ dependencies = [
 [[package]]
 name = "cuprate-zmq-types"
 version = "0.1.0"
-source = "git+https://github.com/dimalinux/cuprate?rev=d4a699845ebb9d125a47bdc70fc22761e6cb17fa#d4a699845ebb9d125a47bdc70fc22761e6cb17fa"
+source = "git+https://github.com/dimalinux/cuprate?branch=dimalinux/zmq-types#d301deb37844296587ce5f8839b95cfa23a61d0d"
 dependencies = [
  "cuprate-types",
  "hex",
  "serde",
- "serde_json",
 ]
 
 [[package]]
@@ -795,18 +794,18 @@ checksum = "61697e0a1c7e512e84a621326239844a24d8207b4669b41bc18b32ea5cbf988b"
 
 [[package]]
 name = "serde"
-version = "1.0.213"
+version = "1.0.214"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3ea7893ff5e2466df8d720bb615088341b295f849602c6956047f8f80f0e9bc1"
+checksum = "f55c3193aca71c12ad7890f1785d2b73e1b9f63a0bbc353c08ef26fe03fc56b5"
 dependencies = [
  "serde_derive",
 ]
 
 [[package]]
 name = "serde_derive"
-version = "1.0.213"
+version = "1.0.214"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7e85ad2009c50b58e87caa8cd6dac16bdf511bbfb7af6c33df902396aa480fa5"
+checksum = "de523f781f095e28fa605cdce0f8307e451cc0fd14e2eb4cd2e98a355b147766"
 dependencies = [
  "proc-macro2",
  "quote",
