@@ -1,0 +1,13 @@
+[package]
+name = "cuprate-zmq-json-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zmq = "0.10.0"
+clap = { version = "4.5.20", features = ["derive", "env"] }
+serde_json = "1.0.128"
+cuprate-zmq-types = { git = "https://github.com/dimalinux/cuprate", rev = "d4a699845ebb9d125a47bdc70fc22761e6cb17fa" }
+#cuprate-zmq-types = { git = "https://github.com/dimalinux/cuprate", branch = "dimalinux/zmq-types" }
+assert-json-diff = "2.0.2"
+serde = { version = "1.0.213", features = ["derive"] }
